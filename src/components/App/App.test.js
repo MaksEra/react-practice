@@ -14,9 +14,9 @@ describe('Домашнее задание', () => {
       expect(wrapper.find('div.App p.description')).toHaveLength(1);
     });
 
-    it('p.description содержит текст: Миру-мир, студентам - beer.', () => {
+    it('p.description содержит текст: Создание первой компоненты App.', () => {
       expect(wrapper.find('div.App p').text()).toEqual(
-        'Миру-мир, студентам - beer.'
+        'Создание первой компоненты App.'
       );
     });
   });
